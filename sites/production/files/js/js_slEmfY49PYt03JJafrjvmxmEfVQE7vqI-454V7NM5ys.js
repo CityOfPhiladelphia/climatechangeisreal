@@ -972,7 +972,7 @@ var darkerColor = function(color, ratio) {
       // Add custom css to the wysiwyg
       if ('undefined' != typeof CKEDITOR) {
         CKEDITOR.on('instanceReady', function(e) {
-          $('head', $('#cke_' + e.editor.name + ' iframe').eq(0).contents()).append('<link rel="stylesheet" href="/sites/all/themes/epa/css/wysiwyg.css" type="text/css" >');
+          $('head', $('#cke_' + e.editor.name + ' iframe').eq(0).contents()).append('<link rel="stylesheet" href="/climatechangeisreal/sites/all/themes/epa/css/wysiwyg.css" type="text/css" >');
           $('#cke_' + e.editor.name + ' iframe').contents().find('html').attr('lang', settings.epa_wysiwyg.site_default_lang);
         });
       }

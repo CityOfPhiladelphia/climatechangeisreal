@@ -34,7 +34,7 @@
 * Add the behavior/HTC after every `box-sizing: border-box;` that you assign:
 * 
 * box-sizing: border-box;
-* *behavior: url(/scripts/boxsizing.htc);`
+* *behavior: url(/climatechangeisreal/climatechangeisreal/scripts/boxsizing.htc);`
 * 
 * Prefix the `behavior` property with a star, like seen above, so it will only be seen by 
 * IE6 & IE7, not by IE8+ who already implement box-sizing.

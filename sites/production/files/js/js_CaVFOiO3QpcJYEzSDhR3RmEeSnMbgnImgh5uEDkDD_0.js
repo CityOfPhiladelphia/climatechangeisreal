@@ -118,11 +118,11 @@ Drupal.behaviors.setLoginFocus = {
 // Convert main menu into a mobile menu and move original menu.
 Drupal.behaviors.mobileMenu = {
   attach: function (context) {
-     
+
     // Create mobile menu container, create mobile bar, and clone the main menu.
     var $mobileNav = $('<div id="mobile-nav" class="mobile-nav"></div>'),
-       // $mobileBar = $('<div class="mobile-bar clearfix"><a class="mobile-home" href="/climatechange" rel="home"><span class="mobile-home-icon">Home</span></a> <a class="menu-button" href="#mobile-links">Menu</a></div>'),
-        $mobileBar = $('<div class="mobile-bar clearfix"><a class="mobile-home" href="/climatechange" rel="home"><span class="mobile-home-icon">Home</span></a> </div>'),
+       // $mobileBar = $('<div class="mobile-bar clearfix"><a class="mobile-home" href="/climatechangeisreal/climatechange" rel="home"><span class="mobile-home-icon">Home</span></a> <a class="menu-button" href="#mobile-links">Menu</a></div>'),
+        $mobileBar = $('<div class="mobile-bar clearfix"><a class="mobile-home" href="/climatechangeisreal/climatechange" rel="home"><span class="mobile-home-icon">Home</span></a> </div>'),
         $mobileLinks = $('<div id="mobile-links" class="mobile-links element-hidden"></div>'),
         $mainNav = $('.simple-main-nav', context),
         $secondaryNav = $('.simple-secondary-nav', context),
@@ -250,7 +250,7 @@ Drupal.epa.epaHoverIntentOut = function() {
 $ = jQuery;
 $(document).ready(function () {
 
-    $("#brand-header").load("/branding/header.html"
+    $("#brand-header").load("/climatechangeisreal/branding/header.html"
        , function (response, status, xhr) {
            if (status == "error") {
                var msg = "Sorry but there was an error: ";
@@ -259,9 +259,9 @@ $(document).ready(function () {
            }
        }
     );
-     
-    $("#brand-menu").load("/branding/menu.html");
-    $("#brand-footer").load("/branding/footer.html");
+
+    $("#brand-menu").load("/climatechangeisreal/branding/menu.html");
+    $("#brand-footer").load("/climatechangeisreal/branding/footer.html");
 
 
 
